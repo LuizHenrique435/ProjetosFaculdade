@@ -1,0 +1,408 @@
+1.Faça um algoritmo que leia: nome, matrícula e turma e imprima esses dados em uma única saída
+
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2023
+Var
+// Seção de Declarações das variáveis 
+nome, turma: CARACTER
+matricula:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("Qual seu nome?")
+leia(nome)
+
+escreval("Qual sua turma?")
+leia(turma)
+
+escreval("Qual sua matricula?")
+leia(matricula)
+
+escreval("Olá Sr. " , nome , " pode comparecer a turma de " , turma , " e informar a matricula " , matricula , "")
+
+
+
+
+Fimalgoritmo
+
+--------------------------------------------------------------------
+
+2. Faça um algoritmo que leia um número e informe se a metade do número é menor, maior ou igual a
+7.
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2023
+Var
+// Seção de Declarações das variáveis 
+n1:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("informe um numero")
+leia(n1)
+
+se(n1/2<7)entao
+escreval("metade do numero menor que 7")
+senao
+escreval("metade do numero maior que 7")
+fimse
+
+Fimalgoritmo
+
+----------------------------------------------------
+
+3.Faça um algoritmo que leia dois números e diga se a soma de ambos é par ou ímpar
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2023
+Var
+// Seção de Declarações das variáveis 
+n1, n2, soma:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("digite um numero")
+leia(n1)
+
+escreval("digite um numero")
+leia(n2)
+
+soma<-n1+n2
+
+se(soma%2=0)entao
+escreval("A Soma dos números é PAR")
+senao
+escreval("A soma dos numero é IMPAR")
+fimse
+
+
+Fimalgoritmo
+
+-----------------------------------------------------------
+
+4. Faça um algoritmo que leia um número e apresente-o informando se é positivo, negativo ou neutro.
+
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2023
+Var
+// Seção de Declarações das variáveis 
+n1:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("digite um numero")
+leia(n1)
+
+se(n1<0)entao
+escreval("Numero negativo")
+senao
+se(n1>0)entao
+escreval("Numero positivo")
+senao
+escreval("numero neutro")
+fimse
+fimse
+
+Fimalgoritmo
+
+---------------------------------------------
+
+5.
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2023
+Var
+// Seção de Declarações das variáveis 
+n1:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("digite um numero")
+leia(n1)
+se(n1>0)entao
+escreval("0 X " , n1 , " = " , n1*0)
+escreval("1 X " , n1 , " = " , n1*1)
+escreval("2 X " , n1 , " = " , n1*2)
+escreval("3 X " , n1 , " = " , n1*3)
+escreval("4 X " , n1 , " = " , n1*4)
+escreval("5 X " , n1 , " = " , n1*5)
+escreval("6 X " , n1 , " = " , n1*6)
+escreval("7 X " , n1 , " = " , n1*7)
+escreval("8 X " , n1 , " = " , n1*8)
+escreval("9 X " , n1 , " = " , n1*9)
+escreval("10 X " , n1 , " = " , n1*10)
+senao
+se(n1=0)entao
+escreval("número igual a " , n1 , " INVALIDO")
+senao
+escreval("número igual a " , n1 , " é negativo então é INVALIDO")
+fimse
+fimse
+
+Fimalgoritmo
+
+-----------------------------------------------------------------
+
+6.
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2023
+Var
+// Seção de Declarações das variáveis 
+
+letra1, letra2, letra3: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("digite a primeira letra")
+leia(letra1)
+escreval("digite a segunda letra")
+leia(letra2)
+
+letra3<-letra1
+letra1<-letra2
+letra2<-letra3
+
+escreval("a primeira letra agora é " ,letra1)
+escreval("a segunda letra agora é " ,letra2)
+
+Fimalgoritmo
+
+------------------------------------------------------------
+
+7.
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2023
+Var
+// Seção de Declarações das variáveis 
+
+n1, n2, n3, n4, freq:inteiro
+media:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("informe sua frequencia escolar")
+leia(freq)
+
+se(freq<=75)entao
+escreval("ALUNO REPROVADO POR FREQUENCIA ABAIXO")
+senao
+
+escreval("informe sua nota 1")
+leia(n1)
+
+escreval("informe sua nota 2")
+leia(n2)
+
+escreval("informe sua nota 3")
+leia(n3)
+
+escreval("informe sua nota 4")
+leia(n4)
+
+media<- (n1+n2+n3+n4)/4
+
+se(media>=7)entao
+escreval("SUA MÉDIA É: " , media , " ALUNO APROVADO")
+senao
+se(media>=5)entao
+escreval("SUA MÉDIA É: " , media , " RECUPERAÇÃO")
+senao
+escreval("ALUNO RETIDO POR FALTA DE MÉDIA")
+fimse
+fimse
+fimse
+Fimalgoritmo
+
+--------------------------------------------------------------------
+
+8.
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2023
+Var
+// Seção de Declarações das variáveis 
+
+idade:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("INFORME SUA IDADE E DESCUBRA SUA CLASSIFICAÇÃO")
+escreval("----------------------------------------------")
+leia(idade)
+
+se(idade<=7)entao
+escreval("Você é infantil")
+senao
+se(idade>=8)entao
+escreval("Você é juvenil")
+senao
+se(idade>=11)entao
+escreval("Adolescente")
+senao
+se(idade>=17)entao
+escreval("Adulto")
+senao
+se(idade>60)entao
+escreval("Idoso")
+fimse
+fimse
+fimse
+fimse
+fimse
+
+Fimalgoritmo
+
+-------------------------------------------------------------------
+
+9. 
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 20/03/2023
+Var
+// Seção de Declarações das variáveis 
+
+n1, n2: INTEIRO
+operacao: CARACTER
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("OLÁ TROPA")
+escreval("---------")
+escreval("CALCULADORA EXTRATERRESTRE")
+escreval("---------")
+escreval("DIGITE UMA OPERAÇÃO EX: + - \ *")
+leia(operacao)
+escreval("DIGITE UM NUMERO")
+leia(n1)
+escreval("DIGITE UM NUMERO")
+leia(n2)
+
+escolha(operacao)
+caso "+"
+escreval("A SOMA DOS NUMEROS É " ,n1+n2)
+
+caso "-"
+escreval("A SUBTRAÇÃO DOS NUMEROS É " ,n1-n2)
+
+caso "/"
+escreval("A DIVISÃO DOS NUMEROS É " ,n1/n2)
+
+caso "*"
+escreval("A MULTIPLICAÇÃO DOS NUMEROS É " ,n1*n2)
+
+
+FIMESCOLHA
+
+
+Fimalgoritmo
+
+-----------------------------------------------------------
+
+10.
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/03/2023
+Var
+// Seção de Declarações das variáveis 
+
+peso:inteiro
+sexo:caracter
+imc, altura:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("informe seu peso")
+leia(peso)
+escreval("informe sua altura")
+leia(altura)
+
+imc<- peso/(altura*altura)
+
+escreval("informe seu sexo")
+leia(sexo)
+
+SE(sexo="F")entao
+SE(imc >=18)e (imc<=24)entao
+escreval("peso normal")
+senao
+SE(imc >=25)e (imc<=30)entao
+escreval("sobrepeso")
+senao
+SE(imc >=31)e (imc<=40)entao
+escreval("Obesidade moderada")
+senao
+SE(imc >40)entao
+escreval("Obesidade Gravissima")
+fimse
+fimse
+fimse
+fimse
+fimse
+SE(sexo="M")entao
+SE(imc >=18)e (imc<=25)entao
+escreval("peso normal")
+senao
+SE(imc >=26)e (imc<=30)entao
+escreval("sobrepeso")
+senao
+SE(imc >=31)e (imc<=42)entao
+escreval("Obesidade moderada")
+senao
+SE(imc >42)entao
+escreval("Obesidade Gravissima")
+fimse
+fimse
+fimse
+fimse
+fimse
+Fimalgoritmo
