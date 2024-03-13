@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação de Faixa Etária e Cálculo de Média</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Identificação de Faixa Etária e Cálculo de Média</h1>
+    <h2>Identificação de Faixa Etária</h2>
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade">
+    <button onclick="identificarFaixaEtaria()">Identificar</button>
+    <div id="resultadoFaixaEtaria"></div>
+
+    <h2>Cálculo de Média Ponderada</h2>
+    <label for="nota1">Nota 1 (Atividade prática em laboratório):</label>
+    <input type="number" id="nota1"><br>
+    <label for="nota2">Nota 2 (Prova do semestre):</label>
+    <input type="number" id="nota2"><br>
+    <label for="nota3">Nota 3 (Trabalho teórico):</label>
+    <input type="number" id="nota3"><br>
+    <button onclick="calcularMedia()">Calcular Média</button>
+    <div id="resultadoMedia"></div>
+</body>
+</html>

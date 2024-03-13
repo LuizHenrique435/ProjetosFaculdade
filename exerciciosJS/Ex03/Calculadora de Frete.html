@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Frete</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Calculadora de Frete</h1>
+    <label for="distancia">Distância em quilômetros:</label>
+    <input type="number" id="distancia"><br>
+    <label for="quantidadePecas">Quantidade de peças:</label>
+    <input type="number" id="quantidadePecas"><br>
+    <label for="regiao">Região (1 - Sul, 2 - Sudeste, 3 - Centro-oeste):</label>
+    <input type="number" id="regiao"><br>
+    <label for="rastreamento">Deseja rastreamento? (S - Sim, N - Não):</label>
+    <input type="text" id="rastreamento"><br>
+    <button onclick="calcularFrete()">Calcular Frete</button><br><br>
+    <div id="resultadoRastreamento"></div>
+    <div id="resultadoFretePecas"></div>
+    <div id="resultadoFreteQuilometro"></div>
+    <div id="resultadoTotalFrete"></div>
+</body>
+</html>

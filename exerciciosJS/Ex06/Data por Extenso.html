@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data por Extenso</title>
+    <!-- Incluindo o jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Incluindo o plugin de máscara de entrada -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</head>
+<body>
+    <h1>Data por Extenso</h1>
+
+    <label for="dataInput">Digite a data (dd/mm/aaaa):</label>
+    <!-- Adicionando máscara à entrada de data -->
+    <input type="text" id="dataInput" data-mask="00/00/0000">
+    <button onclick="escreverDataPorExtenso()">Converter</button>
+
+    <div id="resultado"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
